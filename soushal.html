@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    
+    <title id="page-title" data-ar="الجدرة لتجارة الأدوية" data-en="Al-Jadra">الجدرة لتجارة الأدوية</title>
+
+    <style>
+               body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-image:url(media/back2.jpg);
+        }
+    </style>
+</head>
+<body>
+<div class="colored-line"></div>
+
+<div class="language-switcher">
+    <a href="https://wa.me/967777329622" class="whatsapp-button" target="_blank">  <i class="fa-brands fa-whatsapp"></i></a>
+
+    <button onclick="setLanguage('Ar')">Ar</button>
+    <button onclick="setLanguage('En')">En</button>
+</div>
+
+<div class="info-sectionmin">
+    <div class="info-textmin">
+<button class="open-btn" id="menuButton" onclick="toggleSidebar(event)">☰</button>
+        
+<img src="media/min1.png" width="800px" height="600px" >
+</div>
+</div>
+
+<div class="info-section2">
+
+    </div>
+    <div class="sidebar" id="sidebar">
+        <button  dir="rtl" onclick="hideSidebar(event)">×</button>
+        <img src="media/mun.png" width="300px" height="200px" >
+        <br>
+       
+        <h2 data-ar="القائمة" data-en=" Menu">القائمة</h2>
+           
+    <div class="list-group panel">
+        <a onclick="hideSidebar(event)" href="index.html#section1" data-ar="الصفحة الرئيسية" data-en="Home" class="list-group-item collapsed text-uppercase" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-solid fa-house"></i> الرئيسية</span>
+        </a>
+        <a href="#menu1" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-duotone fa-solid fa-address-card"></i> حول الشركة</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu1">
+            <a onclick="hideSidebar(event)" href="index.html#section2" data-ar="نبذة عنا" data-en="About Us" class="list-group-item" target="_blank"><i class="fa-regular fa-address-card"></i> نبذه عنا</a>
+            <a onclick="hideSidebar(event)" href="index.html#section4" data-ar="إنجازاتنا" data-en="Our Achievements" class="list-group-item" target="_blank"><i class="fa-solid fa-file-circle-check"></i> انجازاتنا</a>
+            <a onclick="hideSidebar(event)" href="index.html#section5" data-ar="الشركات التابعة" data-en="Affiliated Companies" class="list-group-item" target="_blank"><i class="fa-solid fa-building"></i> الشركات التابعة</a>
+            <a onclick="hideSidebar(event)" href="index.html#section3" data-ar="رؤيتنا و رسالتنا" data-en="Our Vision and Mission" class="list-group-item" target="_blank"><i class="fa-solid fa-lightbulb"></i> رؤيتنا ورسالتنا</a>
+        </div>
+        
+        <a onclick="hideSidebar(event)" href="studio.html" data-ar=" المعرض" data-en="Studio" class="list-group-item collapsed" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-regular fa-image"></i>  المعرض</span>
+        </a>
+        <a onclick="hideSidebar(event)" href="aljwdh-waltyqz-aldwaey.html" data-ar="الجودة والتيقظ الدوائي" data-en="Quality and Drug Vigilance" class="list-group-item collapsed" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-sharp fa-solid fa-ranking-star"></i>  الجودة والتيقظ الدوائي</span>
+        </a>
+        <a href="#menu11" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-solid fa-people-roof"></i> الإدارة</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu11">
+            <a onclick="hideSidebar(event)" href="soushal.html" data-ar="عن إدارتنا" data-en="Our Management" class="list-group-item" target="_blank"> <i class="fa-sharp fa-solid fa-list-check"></i> عن الإدارة</a>
+            <a onclick="hideSidebar(event)" href="goal.html" data-ar="أهدافنا" data-en="Our Goals" class="list-group-item" target="_blank"><i class="fa-solid fa-bullseye"></i> أهدافنا</a>
+            <a onclick="hideSidebar(event)" href="qimna.html" data-ar="قيمنا الأساسية" data-en="Our Core Values" class="list-group-item" target="_blank"><i class="fa-solid fa-handshake"></i> قيمنا الأساسية</a>
+        </div>
+        
+        <a href="#menu111" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-solid fa-phone-volume"></i> معلومات الاتصال</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu111">
+            <a onclick="hideSidebar(event)" href="index.html#section6" data-ar="فروعنا" data-en="Our Branches" class="list-group-item" target="_blank"><i class="fa-sharp fa-light fa-circle-nodes"></i> فروعنا</a> 
+            <a href="#menu1sub21" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class="fa-solid fa-phone-volume"></i> وسائل الاتصال
+                <i class="fas fa-chevron-down toggle-icon"></i>
+            </a>
+            <div class="collapse" id="menu1sub21">
+                <a onclick="hideSidebar(event)" href="index.html#section7" data-ar=" زيارة الصفحة" data-en="Contact Us" class="list-group-item" target="_blank"><i class="fa-solid fa-file-lines"></i> زيارة الصفحة</a>
+                <a href="tel:+967777329622" data-ar="الهاتف: +967 777 329 622" data-en="phone: +967 777 329 622" class="list-group-item" target="_blank"><i class="fa-solid fa-phone"></i> +967 777 329 622</a>
+                <a href="https://wa.me/967777329622" class="list-group-item" target="_blank"><i class="fa-brands fa-whatsapp">  </i> WhatsApp</a>
+                <a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا" class="list-group-item" target="_blank"><i class="fa-sharp-duotone fa-solid fa-envelope"></i> algadra.ye@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+<br>
+            <h3 data-ar=" اتصل بنا" data-en="Contact Us"><i class="fa-solid fa-phone-volume"></i>اتصل بنا</h3>
+                          <p data-ar="الهاتف: +967 777 329 622" data-en="phone: +967 777 329 622">   الهاتف:<br> <a href="tel:+967777 329 622"><i class="fa-solid fa-phone"></i>+967 777 329 622</a><br> </p>
+                           <p data-ar="+967 7 222378" data-en="+967 7 222378"> &nbsp<a href="tel:+967 7 222378"><i class="fa-solid fa-phone"></i>+967 7 222378</a> </p>
+                           <a href="https://wa.me/967777329622" class="whatsapp-link">  <i class="fa-brands fa-whatsapp">WhatsApp</i></a>
+                
+                           <p data-ar="بريد إلكتروني:" data-en="Gmail:"> راسلنا عبر البريد الإلكتروني:</p>
+                   <a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا"><i class="fa-sharp-duotone fa-solid fa-envelope"></i>  algadra.ye@gmail.com</a>&nbsp<a href="mailto:ebrahimaljadra@gmail.com"><i class="fa-sharp-duotone fa-solid fa-envelope"></i> ebrahimaljadra@gmail.com</a>    
+
+            
+    </div>
+    <div onclick="hideSidebar(event)">
+ 
+    <section id="section6">
+<div class="info-section">
+    <div class="row">
+        <div class="col-12">
+            <h2 data-ar=" ادارتنا " data-en="Our management"> أدارتنا</h2>
+            <div class="info-text">
+                <p data-ar="تولي شركة  الجدرة أهمية بالغة لأمر توفير الكوادر البشرية المؤهلة التأهيل العالي لإدارة الشركة وإختيار العناصر الكفؤة المؤهلة من الموظفين الموهوبين ممن تتوفر لديهم المؤهلات العالية والخبرات الواسعة في مجال الإدارة. بالإضافة إلى ما يتمتع به فريق التسويق والمبيعات في الشركة من القدرة على الإبتكار والتطوير والحفاظ على موقع الشركة الذي تبوأتة في سوق الأدوية ، ولعل أهم ما يميز فريق شركة  الجدرة هو قدرتهم على مواجهة الأزمات التي قد تتعرض لها الشركة خاصة في ظل الأجواء التي تعيشها اليمن، بالإضافة إلى أن فريق التسويق والمبيعات لدى الشركة  يعمل على المحافظة على مكانة الشركة في مجال بيع وتسويق وتوزيع الأدوية والمعدات الطبية والذي جعل شركة  الجدرة تستحوذ على أكبر حصة  سوقية مما مكنها من الإستمرار في مركز الصدارة على جميع الشركات المنافسة
+
+ " data-en=" Al Jadra Company attaches great importance to the matter of providing highly qualified human cadres to manage the company and selecting competent and qualified elements from the talented employees who have high qualifications and extensive experience in the field of management. In addition to the company’s marketing and sales team’s ability to innovate, develop, and maintain the company’s position in the pharmaceutical market, perhaps the most important thing that distinguishes the Al-Jadra Company team is their ability to confront the crises that the company may be exposed to, especially in light of the atmosphere that Yemen is experiencing,In addition, the company's marketing and sales team is working to focus on the company's position in the field of selling and marketing integrated medical medicines, which allows Al-Jeddah Company to specialize in the largest market share, which enables it to maintain a specialized position over all competing companies.
+ ">
+ تولي شركة  الجدرة أهمية بالغة لأمر توفير الكوادر البشرية المؤهلة التأهيل العالي لإدارة الشركة وإختيار العناصر الكفؤة المؤهلة من الموظفين الموهوبين ممن تتوفر لديهم المؤهلات العالية والخبرات الواسعة في مجال الإدارة. بالإضافة إلى ما يتمتع به فريق التسويق والمبيعات في الشركة من القدرة على الإبتكار والتطوير والحفاظ على موقع الشركة الذي تبوأتة في سوق الأدوية ، ولعل أهم ما يميز فريق شركة  الجدرة هو قدرتهم على مواجهة الأزمات التي قد تتعرض لها الشركة خاصة في ظل الأجواء التي تعيشها اليمن، بالإضافة إلى أن فريق التسويق والمبيعات لدى الشركة  يعمل على المحافظة على مكانة الشركة في مجال بيع وتسويق وتوزيع الأدوية والمعدات الطبية والذي جعل شركة  الجدرة تستحوذ على أكبر حصة  سوقية مما مكنها من الإستمرار في مركز الصدارة على جميع الشركات المنافسة
+</div>
+    <img src="media/mang.jpg"width="1200px" ></div>
+   
+    </div>
+    </div>
+</div>
+ 
+
+<div class="additional-section1">
+    <div class="row col-12">
+        
+            
+   
+    <div class="col-12 col-lg-4">
+       
+            <h4 >About us</h4>
+            <img src="media/mun.png" width="300px" height="100px" >
+            <br>
+            <p >
+                Al-Jadra Company for Medicines and Medical Supplies Trading is considered one of the most important companies</p><p> working in the field of health care in Yemen. Indeed, it is considered a leader in the field</p><p> of selling and distributing medicines, medical devices and other medical supplies.</p><p> Al-Jadra Company was established in 2010 in Yemen by its president </p>
+                <p>owner, Mr. Ibrahim Mohsen Al-Jadra. Today, Al Jadra Company represents about 23 international companies</p>
+                <p> working in the field of medicines and medical supplies </p>
+                <p> company witnessed growth and expansion in its business, which was reflected positively </p>
+            </div>
+    
+        
+        <div class="col-12 col-lg-4 pt-5">
+  
+    <p>on its overall activities thanks to the methods used in its management in accordance with a vision</p>
+    <p> aimed at improving the company’s overall performance according to an institutional building that </p>
+    <p> professional excellence based on greater commitment to professional principles and ethics, as Al Jadra Company</p>
+    <p> acquires a percentage of (13.4%). From the market share of medicines at the level of the Republic of Yemen </p>
+    <p> achieve the status and fame that made it classified as one of the best companies in Yemen..</p>
+           
+
+</div>
+         
+    <div class="col-12 col-lg-4">
+        
+        <h4 class="ss">Contact Us</h4>
+        
+        <h6 class="ss pt-4">Main Branch/Yemen</h6>
+        <h6 class="ss">phone:<br><a href="tel:+967 777 329 622"> +967 777 329 622</a></h6>
+        <h6 class="ss"> <a href="tel:+967 7 222378">     +967 7 222378</a></h6> 
+       <h6 class="ss"><a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا">Email: algadra.ye@gmail.com</h6></a>
+        
+        <h6 class="ss"><a href="mailto:ebrahimaljadra@gmail.com?subject=استفسار&body=مرحبا"  >          ebrahimaljadra@gmail.com</h6></a>
+        <br>
+        <h7 class="ss pt-4">&copy;Created by Abdulkader Al-Jaboobi</h7>
+        <p class="ss"><a href="mailto:000abdulkader111@gmail.com?subject=استفسار&body=مرحبا"  >         000abdulkader111@gmail.com</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="colored-line"></div>
+<script>
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        slides.forEach(slide => slide.style.display = 'none'); // إخفاء جميع الشرائح
+        if (index >= totalSlides) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else {
+            currentSlide = index;
+        }
+        slides[currentSlide].style.display = 'block'; // عرض الشريحة الحالية
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    setInterval(() => {
+        changeSlide(1);
+    }, 3000); // 3000 مللي ثانية (3 ثوانٍ)
+    function setLanguage(lang) {
+        document.querySelectorAll('[data-ar], [data-en]').forEach(element => {
+            element.textContent = element.getAttribute(`data-${lang}`);
+        });
+        document.title = document.getElementById('page-title').getAttribute(`data-${lang}`);
+    }
+    // سلايدر الصور الصغيرة
+    let currentSmallSlide = 0;
+
+    function showSmallSlide(index) {
+        const smallSlides = document.querySelectorAll('.slide-small');
+        const totalSmallSlides = smallSlides.length;
+        smallSlides.forEach(slide => slide.style.display = 'none'); // إخفاء جميع الشرائح
+        if (index >= totalSmallSlides) {
+            currentSmallSlide = 0;
+        } else if (index < 0) {
+            currentSmallSlide = totalSmallSlides - 1;
+        } else {
+            currentSmallSlide = index;
+        }
+        smallSlides[currentSmallSlide].style.display = 'block'; // عرض الشريحة الحالية
+    }
+
+    setInterval(() => {
+        showSmallSlide(currentSmallSlide + 1);
+    }, 3000); // 3000 مللي ثانية (3 ثوانٍ)
+</script>
+<script>
+    //التمرير البطيئ
+     function smoothScroll(target) {
+        const targetElement = document.querySelector(target);
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+        const startPosition = window.scrollY;
+        const distance = targetPosition - startPosition;
+        const duration = 10000; // مدة التمرير بالمللي ثانية
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const run = ease(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        function ease(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    // إضافة تأثير التمرير البطيء عند النقر على الروابط
+    document.querySelectorAll('.scroll-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            smoothScroll(this.getAttribute('href'));
+        });
+    });
+</script>
+
+<script>
+    function toggleSidebar(event) {
+        event.stopPropagation(); // منع الحدث من الانتقال إلى المستند
+        const sidebar = document.getElementById('sidebar');
+        const menuButton = document.getElementById('menuButton');
+        if (sidebar.style.left === '0px') {
+            sidebar.style.left = '-450px'; // إخفاء القائمة
+            menuButton.style.display = 'block'; // إظهار زر الثلاث شرطات
+        } else {
+            sidebar.style.left = '0px'; // إظهار القائمة
+            menuButton.style.display = 'none'; // إخفاء زر الثلاث شرطات
+        }
+    }
+
+    function hideSidebar(event) {
+        const sidebar = document.getElementById('sidebar');
+        const menuButton = document.getElementById('menuButton');
+        if (sidebar.style.left === '0px') {
+            sidebar.style.left = '-450px'; // إخفاء القائمة
+            menuButton.style.display = 'block'; // إظهار زر الثلاث شرطات
+        }
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // تغيير الأيقونة عند فتح وغلق القوائم
+            $('.list-group-item[data-toggle="collapse"]').on('click', function() {
+                var icon = $(this).find('.toggle-icon');
+                icon.toggleClass('fa-chevron-down fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>

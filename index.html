@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title id="page-title" data-ar="الجدرة لتجارة الأدوية" data-en="Al-Jadra">الجدرة لتجارة الأدوية والمستلزمات الطبية</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-image:url(media/back3.jpg);
+        }
+        .im
+{
+	background-image:url(media/a.jpg);
+}     
+        .im1
+{
+	background-image:url(media/back2.jpg);
+    max-width: 100%; /* عرض الصورة 100% داخل القسم */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+            margin: 20px 0; /* هوامش حول الصورة */
+}     
+        .im2
+{
+	background-image:url(media/back1.jpg);
+    max-width: 100%; /* عرض الصورة 100% داخل القسم */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+            margin: 20px 0; /* هوامش حول الصورة */
+}     
+        .img3
+{
+	background-image:url(media/back3.jpg);
+    max-width: 100%; /* عرض الصورة 100% داخل القسم */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+            margin: 20px 0; /* هوامش حول الصورة */
+}     
+
+    </style>
+    
+</head>
+<body >
+    
+<div class="colored-line"></div>
+<div class="language-switcher">
+    
+    <a href="https://wa.me/967777329622" class="whatsapp-button" target="_blank">  <i class="fa-brands fa-whatsapp"></i></a>
+
+    <button onclick="setLanguage('Ar')">Ar</button>
+    <button onclick="setLanguage('En')">En</button>
+    </div>
+        </div>
+ 
+
+<div class="info-sectionmin">
+    <div class="info-textmin">
+<button class="open-btn" id="menuButton" onclick="toggleSidebar(event)">☰</button>
+        
+<img src="media/min1.png" width="800px" height="600px" >
+</div>
+</div>
+
+
+<!--  -->
+<div class="sidebar" id="sidebar">
+    <button  dir="rtl" onclick="hideSidebar(event)">×</button>
+    <img src="media/mun.png" width="300px" height="200px" >
+    <br>
+    <h2 data-ar="القائمة" data-en=" Menu">القائمة</h2>
+
+           
+           
+    <div class="list-group panel">
+        <a onclick="hideSidebar(event)" href="index.html#section1" data-ar="الصفحة الرئيسية" data-en="Home" class="list-group-item collapsed text-uppercase" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-solid fa-house"></i> الرئيسية</span>
+        </a>
+        <a href="#menu1" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-duotone fa-solid fa-address-card"></i> حول الشركة</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu1">
+            <a onclick="hideSidebar(event)" href="index.html#section2" data-ar="نبذة عنا" data-en="About Us" class="list-group-item" target="_blank"><i class="fa-regular fa-address-card"></i> نبذه عنا</a>
+            <a onclick="hideSidebar(event)" href="index.html#section4" data-ar="إنجازاتنا" data-en="Our Achievements" class="list-group-item" target="_blank"><i class="fa-solid fa-file-circle-check"></i> انجازاتنا</a>
+            <a onclick="hideSidebar(event)" href="index.html#section5" data-ar="الشركات التابعة" data-en="Affiliated Companies" class="list-group-item" target="_blank"><i class="fa-solid fa-building"></i> الشركات التابعة</a>
+            <a onclick="hideSidebar(event)" href="index.html#section3" data-ar="رؤيتنا و رسالتنا" data-en="Our Vision and Mission" class="list-group-item" target="_blank"><i class="fa-solid fa-lightbulb"></i> رؤيتنا ورسالتنا</a>
+        </div>
+        
+        <a onclick="hideSidebar(event)" href="studio.html" data-ar=" المعرض" data-en="Studio" class="list-group-item collapsed" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-regular fa-image"></i>  المعرض</span>
+        </a>
+        <a onclick="hideSidebar(event)" href="aljwdh-waltyqz-aldwaey.html" data-ar="الجودة والتيقظ الدوائي" data-en="Quality and Drug Vigilance" class="list-group-item collapsed" target="_blank">
+            <span class="hidden-sm-down"><i class="fa-sharp fa-solid fa-ranking-star"></i>  الجودة والتيقظ الدوائي</span>
+        </a>
+        <a href="#menu11" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-solid fa-people-roof"></i> الإدارة</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu11">
+            <a onclick="hideSidebar(event)" href="soushal.html" data-ar="عن إدارتنا" data-en="Our Management" class="list-group-item" target="_blank"> <i class="fa-sharp fa-solid fa-list-check"></i> عن الإدارة</a>
+            <a onclick="hideSidebar(event)" href="goal.html" data-ar="أهدافنا" data-en="Our Goals" class="list-group-item" target="_blank"><i class="fa-solid fa-bullseye"></i> أهدافنا</a>
+            <a onclick="hideSidebar(event)" href="qimna.html" data-ar="قيمنا الأساسية" data-en="Our Core Values" class="list-group-item" target="_blank"><i class="fa-solid fa-handshake"></i> قيمنا الأساسية</a>
+        </div>
+        
+        <a href="#menu111" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="hidden-sm-down"><i class="fa-solid fa-phone-volume"></i> معلومات الاتصال</span>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </a>
+        <div class="collapse" id="menu111">
+            <a onclick="hideSidebar(event)" href="index.html#section6" data-ar="فروعنا" data-en="Our Branches" class="list-group-item" target="_blank"><i class="fa-sharp fa-light fa-circle-nodes"></i> فروعنا</a> 
+            <a href="#menu1sub21" class="list-group-item collapsed" data-toggle="collapse" aria-expanded="false">
+                <i class="fa-solid fa-phone-volume"></i> وسائل الاتصال
+                <i class="fas fa-chevron-down toggle-icon"></i>
+            </a>
+            <div class="collapse" id="menu1sub21">
+                <a onclick="hideSidebar(event)" href="index.html#section7" data-ar=" زيارة الصفحة" data-en="Contact Us" class="list-group-item" target="_blank"><i class="fa-solid fa-file-lines"></i> زيارة الصفحة</a>
+                <a href="tel:+967777329622" data-ar="الهاتف: +967 777 329 622" data-en="phone: +967 777 329 622" class="list-group-item" target="_blank"><i class="fa-solid fa-phone"></i> +967 777 329 622</a>
+                <a href="https://wa.me/967777329622" class="list-group-item" target="_blank"><i class="fa-brands fa-whatsapp">  </i> WhatsApp</a>
+                <a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا" class="list-group-item" target="_blank"><i class="fa-sharp-duotone fa-solid fa-envelope"></i> algadra.ye@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+
+            
+<br>
+            <h3 data-ar=" اتصل بنا" data-en="Contact Us"><i class="fa-solid fa-phone-volume"></i>اتصل بنا</h3>
+                          <p data-ar="الهاتف: +967 777 329 622" data-en="phone: +967 777 329 622">   الهاتف:<br> <a href="tel:+967777 329 622"><i class="fa-solid fa-phone"></i>+967 777 329 622</a><br> </p>
+                           <p data-ar="+967 7 222378" data-en="+967 7 222378"> &nbsp<a href="tel:+967 7 222378"><i class="fa-solid fa-phone"></i>+967 7 222378</a> </p>
+                           <a href="https://wa.me/967777329622" class="whatsapp-link">  <i class="fa-brands fa-whatsapp"> whatsApp </i></a>
+                
+                           <p data-ar="بريد إلكتروني:" data-en="Gmail:"> راسلنا عبر البريد الإلكتروني:</p>
+                   <a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا"><i class="fa-sharp-duotone fa-solid fa-envelope"></i>  algadra.ye@gmail.com</a>&nbsp<a href="mailto:ebrahimaljadra@gmail.com"><i class="fa-sharp-duotone fa-solid fa-envelope"></i> ebrahimaljadra@gmail.com</a>    
+
+            
+</div>
+<section id="section1">
+<div onclick="hideSidebar(event)">
+<!--  -->
+<div class="info-section2">
+<img src="media/t.jpg" width="800px" height="400px" >
+
+
+
+</div>
+
+
+
+<!-- سلايدر الصور -->
+<div class="slider">
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <div class="slides">
+        
+        <div class="slide "><img src="media/qq.jpg"  alt="Image 3"></div>
+        <div class="slide "><img src="media/qs.jpg"  alt="Image 3"></div>
+        <div class="slide"><img src="media/a.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="media/b.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="media/c.png" alt="Image 3"></div>
+        
+    </div>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+</section>
+<div onclick="hideSidebar(event)">
+<section id="section2">
+<!-- قسم المعلومات -->
+<div class="info-section">
+    <div class="img3">
+    <h1 data-ar="نبذة عنا" data-en="About Us">نبذة عنا <i class="fa-regular fa-address-card"></i></h1>
+    <img src="media/dd.jpg" alt="نبذه عنا" width="700px" height="600px" class="circular-image">
+    <div class="info-text">
+        <p data-ar="       تعتبر  شركة الجدرة لتجارة الادوية والمستلزمات الطبية هي شركة مملوكة للقطاع الخاص، تأسست عام 2010 على يد مالكها السيد/ابراهيم محسن الجدرة. وتعمل على تسويق وتوزيع المنتجات الصيدلانية للمستشفيات الخاصة في السوق اليمنية ،
+        الجدرة للادوية والمستلزمات الطبية : تتعامل مع 50 مستشفى عام و 170 مستشفى خاص و 3000 صيدلية في جميع أنحاء اليمن
+        ولدينا فريق متكامل : مؤهل في جميع مجالات التسويق والمبيعات . رجال المبيعات المؤهلين؛ المشرفون العلميون واستخدام الإعلانات عن طريق الكتيبات والصحف والندوات.
+ كل فريق عمل منفصل عن الشركة الأخرى مع كل الموارد والدعم الذي يحتاجه لتحقيق النجاح وكل شركة لديها خطة سنوية مع الهدف وحققت جميعها معدل نمو سنوي في البيع والتسويق.
+ ولدينا مخازن مركزية مجهزة بنظام التبريد والتبريد المركزي في جميع الفروع الأخرى للمؤسسة والمعرض.
+ لدينا خبرة عالية وموارد كبيرة في مجال التسويق وقاعدة واسعة من العملاء (أكثر من 10000 عميل).
+ لدينا فريق عمل يضم أكثر من 120 شخصًا وتصل مبيعاتنا إلى 25.000.000 دولار (سبعة عشر مليون دولار) سنويًا.
+ تمتلك شركة أبو الراغب فارما 5 قاطرات نقل ثقيل
+ تمتلك شركة أبو الراغب فارما استور لمعدات نقل وتوزيع الأدوية لأغلب محافظات الجمهورية اليمنية عدد 25 قطعة مجهزة بأحدث تقنيات التبريد والتكيف بحيث يتم نقل الأدوية إلى الأماكن النائية في جو صحي وسليم
+ تعد شركة  الجدرة للادوية والمستلزمات الطبية واحدة من الموردين الرئيسيين للأدوية إلى المنظمات الدولية والمحلية مثل:
+ - المنظمات الدولية: منظمة ادراء ، منظمة الهجرة الدولية، منظمة التعاون الإسلامي، الهلال الأحمر القطري
+ - المنظمات المحلية :
+ مؤسسة بناء جمعية رعاية الأسرة
+ نوفر منتجات عالية الجودة وخدمات احترافية وفعالة للحفاظ على مكانة رائدة في الأسواق المختارة.
+تطمح شركة  الجدرة للادوية والمستلزمات الطبية إلى توزيع الأدوية والوصول إلى جميع محافظات ومناطق الجمهورية اليمنية وكذلك التوسع في الدول المجاورة
+توفير أدوية عالية الجودة وفعالة وبأسعار في متناول الجميع حتى يكون الدواء في متناول الجميع 
+
+" data-en=" Al-Jadra Company for Pharmaceuticals and Medical Supplies Trading is a privately owned company, established in 2010 by its president and owner, Mr. Ibrahim Mohsen Al-Jadra. found to marketing and distributes Private Hospitals pharmaceutical products in Yemen market
+lovely pharma : deals with 50 puplic hospitals and 170 private hospitals and 3000 pharmacy around Yemen
+    We have an integrated team : qualified in all scops of marketing & sales ; qualified sales men; scientist supervisors and using advertisment by brochures , newspapers , seminars.
+    Every working team is separate from the other company with all resoures and support that need to successes.
+    Every company has a yearly plan with target and all achieved an annual growth rate in sale & marketing.
+    We have central storage equipped with central cooling & cooling system in all other branches of the institution & exhibition.
+    We have a high experience and big resources at marketing scope and wide base of customers (more than 10000 customers).
+    We have team for work more than 120 persons and our sales reach to 25.000.000 $ ( seventeen million dollar ) in year.
+    Abu Ragheb Pharma Company owns 5 heavy transport locomotives
+    Abu Ragheb Pharma owns Astoor of equipment for transporting and distributing medicines to most of the governorates of the Republic of Yemen, a number of 25 pieces equipped with the latest cooling and adaptation technologies so that medicines are transported to remote places in a healthy and sound atmosphere
+lovely pharma is one of the major suppliers of medicines to intemational and local organizations such as:
+-	Intematjonal organizations: ADRE Organization intemational immigration Organization Organization of Islamic Cooperation Qatar Red Crescent
+-	local organizations :
+building foundation Family Care Association
+To provide quality products , professional and efficient services to maintain leading positions in chosen markets.
+lovely pharma aspires to distribute medicines and reach all governorates and regions of the Republic of Yemen, as well as expand to neighboring countries
+Providing high-quality, highly effective medicines at an affordable price so that the medicine is accessible to everyone ">
+            تعتبر  شركة الجدرة لتجارة الادوية والمستلزمات الطبية هي شركة مملوكة للقطاع الخاص، تأسست عام 2010 على يد مالكها السيد/ابراهيم محسن الجدرة. وتعمل على تسويق وتوزيع المنتجات الصيدلانية للمستشفيات الخاصة في السوق اليمنية ،
+            الجدرة للادوية والمستلزمات الطبية : تتعامل مع 50 مستشفى عام و 170 مستشفى خاص و 3000 صيدلية في جميع أنحاء اليمن
+            ولدينا فريق متكامل : مؤهل في جميع مجالات التسويق والمبيعات . رجال المبيعات المؤهلين؛ المشرفون العلميون واستخدام الإعلانات عن طريق الكتيبات والصحف والندوات.
+ 	كل فريق عمل منفصل عن الشركة الأخرى مع كل الموارد والدعم الذي يحتاجه لتحقيق النجاح وكل شركة لديها خطة سنوية مع الهدف وحققت جميعها معدل نمو سنوي في البيع والتسويق.
+ 	ولدينا مخازن مركزية مجهزة بنظام التبريد والتبريد المركزي في جميع الفروع الأخرى للمؤسسة والمعرض.
+     لدينا خبرة عالية وموارد كبيرة في مجال التسويق وقاعدة واسعة من العملاء (أكثر من 10000 عميل).
+ 	لدينا فريق عمل يضم أكثر من 120 شخصًا وتصل مبيعاتنا إلى 25.000.000 دولار (سبعة عشر مليون دولار) سنويًا.
+ 	تمتلك شركة أبو الراغب فارما 5 قاطرات نقل ثقيل
+ 	تمتلك شركة أبو الراغب فارما استور لمعدات نقل وتوزيع الأدوية لأغلب محافظات الجمهورية اليمنية عدد 25 قطعة مجهزة بأحدث تقنيات التبريد والتكيف بحيث يتم نقل الأدوية إلى الأماكن النائية في جو صحي وسليم
+     تعد شركة  الجدرة للادوية والمستلزمات الطبية واحدة من الموردين الرئيسيين للأدوية إلى المنظمات الدولية والمحلية مثل:
+     - المنظمات الدولية: منظمة ادراء ، منظمة الهجرة الدولية، منظمة التعاون الإسلامي، الهلال الأحمر القطري
+     - المنظمات المحلية :
+     مؤسسة بناء جمعية رعاية الأسرة
+     نوفر منتجات عالية الجودة وخدمات احترافية وفعالة للحفاظ على مكانة رائدة في الأسواق المختارة.
+تطمح شركة  الجدرة للادوية والمستلزمات الطبية إلى توزيع الأدوية والوصول إلى جميع محافظات ومناطق الجمهورية اليمنية وكذلك التوسع في الدول المجاورة
+توفير أدوية عالية الجودة وفعالة وبأسعار في متناول الجميع حتى يكون الدواء في متناول الجميع 
+
+        </p>
+        <!--  -->
+        <div class="row col-12">
+            <div class="col-12 col-lg-3">
+                <br>
+        <p>مستشفيات عامة</p>
+    <div class="container">
+        
+        <div class="progress" id="progress1"></div>
+        <div class="circle">
+            <i class="fa-sharp fa-regular fa-hospital"></i><div class="counter" id="counter1">0</div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-lg-3">
+    <br>
+    <p>مستشفيات خاصة</p>
+    <div class="container">
+        
+        <div class="progress" id="progress2"></div>
+        <div class="circle">
+            <i class="fa-duotone fa-solid fa-hospital"></i><div class="counter" id="counter2">0</div>
+        </div>
+    </div>
+</div>
+<div class="col-12 col-lg-3">
+    <br>
+    <p> صيدليات في اليمن</p>
+    <div class="container">
+        
+        <div class="progress" id="progress3"></div>
+        <div class="circle">
+            <i class="fa-sharp fa-solid fa-prescription-bottle-medical"></i><div class="counter" id="counter3">0</div>
+        </div>
+    </div>
+</div>
+<div class="col-12 col-lg-3">
+    <br>
+    <p>   الزوار  </p>
+    <div class="container">
+        
+        <div class="progress" ></div>
+        <div class="circle">
+            <i class="fa-duotone fa-solid fa-eye"></i><div class="counter5"id="visitorCounter" >0</div>
+        </div>
+    </div>
+</div>
+</div>
+<br>
+        <!--  -->
+       
+        <div class="info-section2">
+            <div class="menu">
+        <a href="soushal.html" data-ar="إقرأ المزيد عن ادارتنا" data-en="Our Management">إقرأ المزيد عن ادارتنا</a>
+            </div>   
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="section3">
+<!-- القسم الجديد -->
+<div class="info-section3">
+<div class="row col-12">
+    <div class="col-12 col-lg-6">
+    <div class="info-text3" dir="rtl">
+        <h2 data-ar="رؤيتنا" data-en="Our Vision"><i class="fa-solid fa-lightbulb"></i> رؤيتنا</h2>
+        <br>
+        <h4 data-ar="أن تكون شركة الجدرة للأدوية هي الشركة الرائدة المزودة للدواء في اليمن، وتصبح الشريك الفاعل في المجال الدوائي و الطبي في اليمن" data-en="For Al-Jadra Pharmaceuticals Company to be the leading drug supplier in Yemen, and to become an active partner in the pharmaceutical and medical field in Yemen.">
+            أن تكون شركة الجدرة للأدوية هي الشركة الرائدة  المزودة للدواء في اليمن، وتصبح الشريك الفاعل في المجال الدوائي و الطبي في اليمن
+        </h4>
+         <img src="media/f.jpg" alt="رؤيتنا" width="400px">
+    </div>
+</div>
+   
+<div></div>
+<div class=" col-12 col-lg-6">
+    
+    <div class="info-text3" dir="rtl">
+        <h2 data-ar="رسالتنا" data-en="Our Mission"> <i class="fa-solid fa-message"></i> رسالتنا</h2>
+        <br>
+        <h4 data-ar="أن نصبح المزود الرئيسي للأدوية والمستلزمات الطبية في اليمن ونكون الشبكة الرئيسيّة الداعمة للصيدليات ومخازن الأدوية بتوفير وتسويق أحدث ما تم اكتشافه وتصنيعه في عالم الدواء، وبأعلى المواصفات المعتمدة عالمياً و بأسعار تنافسية تلبي حاجات عملائنا
+ " data-en="To become the main provider of medicines and medical supplies in Yemen and to be the main network supporting pharmacies and drug stores by providing and marketing the latest discoveries and manufactures in the world of medicine, with the highest internationally approved specifications and at competitive prices that meet the needs of our customers،lovely pharma is a Company : that is always strives for the best and endeavors to be exemplary in every stage of business by realizing the importance of providing patients with the best medication .
+ .">
+            أن نصبح المزود الرئيسي للأدوية والمستلزمات  الطبية في اليمن ونكون الشبكة الرئيسيّة الداعمة للصيدليات ومخازن  الأدوية بتوفير وتسويق أحدث ما تم اكتشافه وتصنيعه في عالم الدواء، وبأعلى المواصفات المعتمدة عالمياً و بأسعار تنافسية تلبي حاجات عملائنا
+            إن شركة  الجدرة للادوية والمستلزمات الطبية هي شركة تسعى دائمًا إلى تقديم الأفضل وتسعى إلى أن تكون نموذجية في كل مرحلة من مراحل العمل من خلال إدراك أهمية تزويد المرضى بأفضل الأدوية.
+        </h4>
+         <img src="media/e.jpg" alt="صورة 2" width="400px">
+    </div>
+
+    </div>
+</div>
+<br>
+</div>
+<marquee><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"><img src="media/qs.jpg" width="90px" height="90px"></marquee>
+
+</section>
+
+<section id="section5">
+<div class="info-section">
+    <div class="row">
+        <div class="col-12">
+            <h2 data-ar="شركاتنا التابعة" data-en="Our Subsidiaries"> شركاتنا التابعة <i class="fa-solid fa-building"></i> </h2>
+            <div class="info-text">
+                <p dir="rtl" data-ar=" توسعت شركة الجدرة عمودياً وأفقياً ، مما تطلب تنويع أنشطتها في مختلف المجالات. قامت الشركة بتوسيع أعمالها بدخول تجارة التجزئة من خلال فتح صيدلية في محافظة حجة (صيدلية السعيدة فارما) التي توفر للمستهلكين جميع المنتجات الصيدلانية.تعد شركة  الجدرة للادوية والمستلزمات الطبية واحدة من الموردين الرئيسيين للأدوية إلى المنظمات الدولية والمحلية مثل:
+                - المنظمات الدولية: منظمة ادراء ، منظمة الهجرة الدولية، منظمة التعاون الإسلامي، الهلال الأحمر القطري
+                - المنظمات المحلية :
+                مؤسسة بناء جمعية رعاية الأسرة
+            كما نمثل شركات منتجة للدواء منها:
+          AUG pharma مصر ،
+ الساحل الغربي الهندي،
+Roial link-مصر،
+AIG مصر،
+سيدهايو،
+ كيمبيترو لصناعة الأدوية مصر،
+         ماكتر الدوائية المحدودة باكستان.
+              .
+ " data-en="Al Jadra Company expanded vertically and horizontally, which required diversifying its activities in various fields. The company expanded its business by entering retail trade by opening a pharmacy in Hajjah Governorate (Al Saeeda Pharma Pharmacy) that provides consumers with all pharmaceutical products. Al Jadra Company has also expanded its business to include sectors other than the pharmaceutical field, which is the company's electricity sector،lovely pharma is one of the major suppliers of medicines to intemational and local organizations such as:
+ -	Intematjonal organizations: ADRE Organization intemational immigration Organization Organization of Islamic Cooperation Qatar Red Crescent
+ -	local organizations :
+ building foundation Family Care Association.">
+                    توسعت شركة الجدرة عمودياً وأفقياً ، مما تطلب تنويع أنشطتها في مختلف المجالات. قامت الشركة بتوسيع أعمالها بدخول تجارة التجزئة من خلال فتح صيدلية في محافظة حجة (صيدلية السعيدة فارما) التي توفر للمستهلكين جميع المنتجات الصيدلانية. تعد شركة  الجدرة للادوية والمستلزمات الطبية واحدة من الموردين الرئيسيين للأدوية إلى المنظمات الدولية والمحلية مثل:
+                    - المنظمات الدولية: منظمة ادراء ، منظمة الهجرة الدولية، منظمة التعاون الإسلامي، الهلال الأحمر القطري
+                    - المنظمات المحلية :
+                    مؤسسة بناء جمعية رعاية الأسرة
+                كما نمثل شركات منتجة للدواء منها:
+               <a href="https://augpharma.com/"> AUG pharma مصر </a>،
+ 	الساحل الغربي الهندي،
+ 	<a href="http://www.royallinkpharma.com/">Roial link-مصر</a>،
+ 	<a href="https://www.pharmatop1.com/aig-pharmaceuticals/">AIG مصر</a>،
+    سيدهايو،
+ 	كيمبيترو لصناعة الأدوية مصر،
+            <a href="https://macter.com/"> ماكتر الدوائية المحدودة باكستان. </a>
+                  </p>
+    </div>
+       <img src="media/qs.jpg"width="500px"class="rotating-image" ></div>
+    </div>
+    </div>
+</div>
+</section>
+<section id="section4">
+<div class="info-section">
+    <div class="im1">
+    <div class="row">
+        <div class="col-12">
+            <img src="media/ok.png"  class="circular-image2">
+            <br>
+            <a href=""><img src="media/g.jpg" width="700px" height="600px" class="circular-image1"></a>
+            <div class="info-text">
+                <p data-ar=" الجدرة للأدوية والمستلزمات الطبية هي شركة رائدة من حيث حجم الواردات وشبكات التوزيع. مما جعلها تحافظ على نمو متزايد لتصبح إحدى الشركات الرائدة في استيراد الأدوية من القطاع الخاص في الجمهورية اليمنية رغم ما تمر به البلاد من حروب وحصار اقتصادي. تمثل الجدرة حصة سوقية ممتازة تصل إلى عشرة بالمائة بين جميع مستوردي الأدوية في اليمن والذي يضم 370 شركة استيراد.
+" data-en="Al Jadra Pharmaceuticals and Medical Supplies is a leading company in terms of import volume and distribution networks. Which made it maintain increasing growth to become one of the leading companies in importing medicines from the private sector in the Republic of Yemen despite the wars and economic blockade that the country is going through. Jadra represents an excellent market share of ten percent among all pharmaceutical importers in Yemen, which includes 370 importing companies.">
+                    الجدرة للأدوية والمستلزمات الطبية هي شركة رائدة من حيث حجم الواردات وشبكات التوزيع. مما جعلها تحافظ على نمو متزايد لتصبح إحدى الشركات الرائدة في استيراد الأدوية من القطاع الخاص في الجمهورية اليمنية رغم ما تمر به البلاد من حروب وحصار اقتصادي. تمثل الجدرة حصة سوقية ممتازة تصل إلى عشرة بالمائة بين جميع مستوردي الأدوية في اليمن والذي يضم 370 شركة استيراد.
+                </p>
+                <img src="media/seles1.png" width="700px" height="600px">
+                <img src="media/seles2.jpg" width="700px" height="600px">
+                <img src="media/seles3.jpg" width="700px" height="600px">
+               </div>
+     
+    </div>
+    </div>
+</div>
+</div>
+</section>
+<section id="section6">
+<div class="info-section">
+    <div class="im2">
+    <div class="row">
+        <div class="col-12">
+            <h1 data-ar="فروعنا" data-en="Our Presence">فروعنا</h1>
+            <div class="info-text">
+                <div class="row col-12">
+                    <div class="col-12 col-lg-4">
+                        
+                        <p data-ar="الفرع الرئيسي/اليمن" data-en="Main Branch"> <i class="fa-solid fa-location"></i>الفرع الرئيسي/اليمن</p>
+                        <p data-ar=" حجة المدينة/جوار كاك بنك هاتف: 00967 777 329 622" data-en="Hajjah Al-Madina\near CAC Bank Tel: 00967 777 329 622"><i class="fa-solid fa-house"></i>حجة المدينة/جوار كاك بنك<br>هاتف:<br><i class="fa-solid fa-phone"></i><a href="tel:+967777329622">  00967777329622</a></p>
+                        <p data-ar="مكتب القاهرة/مصر
+                        العنوان: شارع فيصل
+                        شارع صلاح الخولي عمارة 5 الدور الثاني شقة الخامسة" data-en="Cairo office\Egypt 
+                        Address: Faisal Street
+                        Salah Al-Khouli Street, building 5, second floor, apartment five"> مكتب القاهرة/مصر <i class="fa-solid fa-house"></i>
+                       
+                        العنوان: شارع فيصل
+                        شارع صلاح الخولي عمارة 5 الدور الثاني شقة الخامسة </p>
+                       
+                    </div>
+            <div class="col-12 col-lg-8">
+                <img src="media/address.jpg"  width="800px" height="700px">
+            
+                </div>
+        </div>
+    </div>
+     
+    </div>
+    </div>
+    </div>
+</div>
+</section>
+<section id="section7">
+
+<div class="info-section">
+    <div class="im1">
+    <div class="row">
+        <div class="col-12">
+            <h2 data-ar=" اتصل بنا" data-en="Contact Us">اتصل بنا <i class="fa-solid fa-phone-volume"></i></h2>
+            <br><br>
+            <div class="info-text" dir="ltr">
+                <div class="row">
+                    <div class="col-12 col-lg-6" >
+                     
+                       
+                            
+                          <p data-ar="الهاتف: +967 777 329 622" data-en="phone: +967 777 329 622">   الهاتف:<br> <i class="fa-solid fa-phone"></i><a href="tel:+967777 329 622"> 777 329 622</a><br> </p>
+                           <p data-ar="+967 7 222378" data-en="+967 7 222378"> &nbsp<i class="fa-solid fa-phone"></i><a href="tel:+967 7 222378"> +967 7 222378</a></p>
+    <a href="https://wa.me/967777329622" class="whatsapp-link" >  <i class="fa-brands fa-whatsapp"></i></a>
+            
+                        </div>
+            <div class="col-12 col-lg-6 ">
+              
+                
+                <p data-ar="بريد إلكتروني:" data-en="Gmail:"> بريد إلكتروني:<br></p>
+
+                   <a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا"><i class="fa-sharp-duotone fa-solid fa-envelope"></i>  algadra.ye@gmail.com</h6></a><br>&nbsp<a href="mailto:ebrahimaljadra@gmail.com"><i class="fa-sharp-duotone fa-solid fa-envelope"></i> ebrahimaljadra@gmail.com</h6></a>    
+
+            
+                </div>
+        </div>
+    </div>
+     
+    </div>
+    </div>
+</div>
+</div>
+</section>
+<div class="info-section">
+    <img src="media/k.jpg"  width="700px" height="600px">
+   
+</div>
+
+</div>
+<!-- نموذج الاتصال -->
+<div class="contact-form">
+    
+    <h2 data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+    <form action="send_email.php" method="POST">
+        <label for="name" data-ar="الاسم:" data-en="Name:">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email" data-ar="البريد الإلكتروني:" data-en="Email:">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject" data-ar="الموضوع:" data-en="Subject:">الموضوع:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message" data-ar="الرسالة:" data-en="Message:">الرسالة:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" data-ar="إرسال" data-en="Send">إرسال</button>
+    </form>
+</div>
+
+    
+<div class="additional-section1">
+    <div class="row col-12">
+        
+            
+   
+    <div class="col-12 col-lg-4">
+       
+            <h4 >About us</h4>
+            <img src="media/mun.png" width="300px" height="100px" >
+            <br>
+            <p >
+                Al-Jadra Company for Medicines and Medical Supplies Trading is considered one of the most important companies</p><p> working in the field of health care in Yemen. Indeed, it is considered a leader in the field</p><p> of selling and distributing medicines, medical devices and other medical supplies.</p><p> Al-Jadra Company was established in 2010 in Yemen by its president </p>
+                <p>owner, Mr. Ibrahim Mohsen Al-Jadra. Today, Al Jadra Company represents about 23 international companies</p>
+                <p> working in the field of medicines and medical supplies </p>
+                <p> company witnessed growth and expansion in its business, which was reflected positively </p>
+            </div>
+    
+        
+        <div class="col-12 col-lg-4 pt-5">
+  
+    <p>on its overall activities thanks to the methods used in its management in accordance with a vision</p>
+    <p> aimed at improving the company’s overall performance according to an institutional building that </p>
+    <p> professional excellence based on greater commitment to professional principles and ethics, as Al Jadra Company</p>
+    <p> acquires a percentage of (13.4%). From the market share of medicines at the level of the Republic of Yemen </p>
+    <p> achieve the status and fame that made it classified as one of the best companies in Yemen..</p>
+           
+
+</div>
+         
+    <div class="col-12 col-lg-4">
+        
+        <h4 class="ss">Contact Us</h4>
+        
+        <h6 class="ss pt-4">Main Branch\Yemen</h6>
+        <h6 class="ss">phone:<br><a href="tel:+967 777 329 622"> +967 777 329 622</a></h6>
+        <h6 class="ss"> <a href="tel:+967 7 222378">     +967 7 222378</a></h6>
+        <h6 class="ss"><a href="mailto:algadra.ye@gmail.com?subject=استفسار&body=مرحبا">Email: algadra.ye@gmail.com</h6></a>
+        
+        <h6 class="ss"><a href="mailto:ebrahimaljadra@gmail.com?subject=استفسار&body=مرحبا"  >          ebrahimaljadra@gmail.com</h6></a>
+  
+        <br>
+        <h7 class="ss pt-4">&copy;Created by Abdulkader Al-Jaboobi</h7>
+        <p class="ss"><a href="mailto:000abdulkader111@gmail.com?subject=استفسار&body=مرحبا"  >         000abdulkader111@gmail.com</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="colored-line"></div>
+</div>
+<script>
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        slides.forEach(slide => slide.style.display = 'none'); // إخفاء جميع الشرائح
+        if (index >= totalSlides) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else {
+            currentSlide = index;
+        }
+        slides[currentSlide].style.display = 'block'; // عرض الشريحة الحالية
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentSlide + direction);
+    }
+
+    setInterval(() => {
+        changeSlide(1);
+    }, 3000); // 3000 مللي ثانية (3 ثوانٍ)
+    function setLanguage(lang) {
+        document.querySelectorAll('[data-ar], [data-en]').forEach(element => {
+            element.textContent = element.getAttribute(`data-${lang}`);
+        });
+        document.title = document.getElementById('page-title').getAttribute(`data-${lang}`);
+    }
+    // سلايدر الصور الصغيرة
+    let currentSmallSlide = 0;
+
+    function showSmallSlide(index) {
+        const smallSlides = document.querySelectorAll('.slide-small');
+        const totalSmallSlides = smallSlides.length;
+        smallSlides.forEach(slide => slide.style.display = 'none'); // إخفاء جميع الشرائح
+        if (index >= totalSmallSlides) {
+            currentSmallSlide = 0;
+        } else if (index < 0) {
+            currentSmallSlide = totalSmallSlides - 1;
+        } else {
+            currentSmallSlide = index;
+        }
+        smallSlides[currentSmallSlide].style.display = 'block'; // عرض الشريحة الحالية
+    }
+
+    setInterval(() => {
+        showSmallSlide(currentSmallSlide + 1);
+    }, 3000); // 3000 مللي ثانية (3 ثوانٍ)
+</script>
+<script>
+    //التمرير البطيئ
+     function smoothScroll(target) {
+        const targetElement = document.querySelector(target);
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+        const startPosition = window.scrollY;
+        const distance = targetPosition - startPosition;
+        const duration = 10000; // مدة التمرير بالمللي ثانية
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const run = ease(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, run);
+            if (timeElapsed < duration) requestAnimationFrame(animation);
+        }
+
+        function ease(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    // إضافة تأثير التمرير البطيء عند النقر على الروابط
+    document.querySelectorAll('.scroll-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            smoothScroll(this.getAttribute('href'));
+        });
+    });
+</script>
+
+<script>
+    function toggleSidebar(event) {
+        event.stopPropagation(); // منع الحدث من الانتقال إلى المستند
+        const sidebar = document.getElementById('sidebar');
+        const menuButton = document.getElementById('menuButton');
+        if (sidebar.style.left === '0px') {
+            sidebar.style.left = '-450px'; // إخفاء القائمة
+            menuButton.style.display = 'block'; // إظهار زر الثلاث شرطات
+        } else {
+            sidebar.style.left = '0px'; // إظهار القائمة
+            menuButton.style.display = 'none'; // إخفاء زر الثلاث شرطات
+        }
+    }
+
+    function hideSidebar(event) {
+        const sidebar = document.getElementById('sidebar');
+        const menuButton = document.getElementById('menuButton');
+        if (sidebar.style.left === '0px') {
+            sidebar.style.left = '-450px'; // إخفاء القائمة
+            menuButton.style.display = 'block'; // إظهار زر الثلاث شرطات
+        }
+    }
+</script>
+
+<script>
+    var sum=0;
+   function startCounting(counterId, progressId, total) {
+       let count = 1; // بدء العد من 1
+       const counterElement = document.getElementById(counterId);
+       const progressElement = document.getElementById(progressId);
+       const duration = 3000; // مدة التحرك (3 ثواني)
+       const intervalTime = duration / total; // الوقت بين كل زيادة
+       if (sum==0){
+       const interval = setInterval(() => {
+           
+           if (count <= total) {
+               sum++;
+               counterElement.textContent = count;
+               const angle = (count / total) * 180; // حساب الزاوية لنصف دائرة
+               progressElement.style.background = `conic-gradient(blue 0deg, blue ${angle}deg, #f0f0f0 ${angle}deg, #f0f0f0 360deg)`;
+               count++; // زيادة العد بمقدار 1
+           } else {
+               clearInterval(interval);
+           }
+      
+       }, intervalTime); // الوقت بين كل زيادة
+   }
+   }
+
+   // دالة للتحقق من التمرير إلى العدادات
+  
+   function checkScroll() {
+      
+       const counters = [
+           { counterId: 'counter1', progressId: 'progress1', total: 50 },
+           { counterId: 'counter2', progressId: 'progress2', total: 170 },
+           { counterId: 'counter3', progressId: 'progress3', total: 3000 }
+       ];
+      
+       counters.forEach(({ counterId, progressId, total }) => {
+           const counterPosition = document.getElementById(counterId).getBoundingClientRect().top;
+           const windowHeight = window.innerHeight;
+           
+           // بدء العد عند الوصول إلى العداد
+           if (counterPosition < windowHeight && counterPosition > 0) {
+               startCounting(counterId, progressId, total);
+           }
+       
+       });
+   }
+
+
+   window.addEventListener('scroll', checkScroll);
+</script>
+</script>
+
+<script>
+    // الحصول على عدد الزوار الحالي من Local Storage
+    let visitorCount = localStorage.getItem('visitorCount');
+
+    // إذا لم يكن هناك عدد زوار محفوظ، نبدأ من 0
+    if (!visitorCount) {
+        visitorCount = 0;
+    }
+
+    // زيادة عدد الزوار بمقدار 1
+    visitorCount++;
+
+    // حفظ العدد الجديد في Local Storage
+    localStorage.setItem('visitorCount', visitorCount);
+
+    // تحديث عرض العدد في الصفحة
+    document.getElementById('visitorCounter').textContent = ` ${visitorCount}`;
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // تغيير الأيقونة عند فتح وغلق القوائم
+            $('.list-group-item[data-toggle="collapse"]').on('click', function() {
+                var icon = $(this).find('.toggle-icon');
+                icon.toggleClass('fa-chevron-down fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+</html>
