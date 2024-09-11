@@ -697,9 +697,12 @@ AIG مصر،
        
        });
    }
+window.addEventListener('scroll', () => {
+    requestAnimationFrame(checkScroll);
+});
 
-
-   window.addEventListener('scroll', checkScroll);
+// التأكد من أن الدالة تعمل عند تحميل الصفحة
+window.addEventListener('load', checkScroll);
 </script>
 </script>
 
